@@ -2,7 +2,8 @@
 
 ## 1. DÙNG PRE-TRAINED
 - Chạy file `./UTESoft-UltimateALPR-SDK/binaries/windows/x86_64/benchmark.bat`
-- <details>
+
+<details>
 
 <summary>Kết quả</summary>
 
