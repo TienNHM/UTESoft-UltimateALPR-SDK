@@ -40,7 +40,7 @@ JSON_CONFIG = {
     "debug_internal_data_path": ".",
     
     "num_threads": -1,
-    "gpgpu_enabled": True,
+    "gpgpu_enabled": False,
     "max_latency": -1,
 
     "klass_vcr_gamma": 1.5,
