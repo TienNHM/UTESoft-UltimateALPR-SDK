@@ -185,13 +185,12 @@ message: [UltAlprDetector] Failed to create OpenVINO detector/classifier. Fallba
 *[ULTALPR_SDK INFO]: Press any key to terminate !!
 
 </pre>
+</details>
 
 - Kết quả phát hiện:
 ```
 *[ULTALPR_SDK INFO]: MyUltAlprSdkParallelDeliveryCallback::onNewResult(0, OK, 1): {"frame_id":3,"latency":0,"plates":[{"car":{"confidence":99.9999,"warpedBox":[78.42548,171.6582,1088.826,171.6582,1088.826,607.6826,78.42548,607.6826]},"confidences":[89.91418,99.84826,90.13089,89.91418,90.18127,90.65147,90.49564,90.35191,91.2173],"text":"3PEDLM*","warpedBox":[820.0174,343.1933,941.6364,343.1933,941.6364,406.0498,820.0174,406.0498]}]}
 ```
-
-</details>
 
 ## 2. BUILD TỪ SAMPLE
 
