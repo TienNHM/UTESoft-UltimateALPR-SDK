@@ -4,10 +4,8 @@
 - Chạy file `./UTESoft-UltimateALPR-SDK/binaries/windows/x86_64/benchmark.bat`
 
 <details>
-
 <summary>Kết quả</summary>
-
-```
+<pre>
 C:\Users\Minh Tien\Downloads\ultimateALPR-SDK\binaries\windows\x86_64>benchmark.exe     --positive ../../../assets/images/lic_us_1280x720.jpg     --negative ../../../assets/images/london_traffic.jpg     --assets ../../../assets     --ienv_enabled false     --openvino_enabled true     --openvino_device CPU     --klass_lpci_enabled false     --klass_vcr_enabled false     --klass_vmmr_enabled false     --klass_vbsr_enabled false     --charset latin     --loops 100     --rate 0.2     --parallel true
 *[ULTALPR_SDK INFO]: Starting benchmark...
 *[COMPV INFO]: [UltAlprSdkEngine] Call: ultimateAlprSdk::UltAlprSdkEngine::init
@@ -186,6 +184,11 @@ message: [UltAlprDetector] Failed to create OpenVINO detector/classifier. Fallba
 *[ULTALPR_SDK INFO]: *** elapsedTimeInMillis: 6020.625500, estimatedFps: 16.609570 ***
 *[ULTALPR_SDK INFO]: Press any key to terminate !!
 
+</pre>
+
+- Kết quả phát hiện:
+```
+*[ULTALPR_SDK INFO]: MyUltAlprSdkParallelDeliveryCallback::onNewResult(0, OK, 1): {"frame_id":3,"latency":0,"plates":[{"car":{"confidence":99.9999,"warpedBox":[78.42548,171.6582,1088.826,171.6582,1088.826,607.6826,78.42548,607.6826]},"confidences":[89.91418,99.84826,90.13089,89.91418,90.18127,90.65147,90.49564,90.35191,91.2173],"text":"3PEDLM*","warpedBox":[820.0174,343.1933,941.6364,343.1933,941.6364,406.0498,820.0174,406.0498]}]}
 ```
 
 </details>
