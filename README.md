@@ -1,6 +1,6 @@
 # STEP-BY-STEP
 
-## 1. DÙNG PRE-TRAINED
+## 1. DÙNG PRE-BUILT BINARIES
 - Chạy file `./UTESoft-UltimateALPR-SDK/binaries/windows/x86_64/benchmark.bat`
 
 <details>
